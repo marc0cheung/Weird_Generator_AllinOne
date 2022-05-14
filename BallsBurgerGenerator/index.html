@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#333333">
+    <title>Balls Burger Generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<script>
+    function Generate()
+    {
+        var Uwant = document.getElementById("Uwant").value;
+        var Usee = document.getElementById("Usee").value;
+        var verb = document.getElementById("Verb").value;
+        document.getElementById("result").innerHTML=
+        "今天是" + Uwant + "瘾发作最严重的一次，躺在床上，拼命念大悲咒，难受得一直抓自己眼睛，以为刷知乎没事，看到知乎都在发"
+        + Usee + "，眼睛越来越大都要炸开了一样，拼命扇自己眼睛，越扇越用力，扇到自己眼泪流出来，真的不知道该怎么办，我真的想"
+        + Uwant + "想得要发疯了。我躺在床上会想" + Uwant + "，我洗澡会想"
+        + Uwant + "，我出门会想" + Uwant + "，我走路会想" + Uwant + 
+        "，我坐车会想" + Uwant + "，我工作会想" + Uwant + "，我玩手机会想"+ Uwant + "，我盯着路边的" + Usee + 
+        "看，我盯着马路对面的" + Usee + "看，我盯着地铁里的" + Usee + 
+        "看，我盯着网上的"+ Usee + "看，我盯着朋友圈别人合照里的" + Usee + "看，我每时每刻眼睛都直直地盯着" + Usee + 
+        "看，像一台雷达一样扫视我身边的每一个" + Usee + "，我真的觉得自己像中邪了一样，我对" + Uwant + 
+        "的念想似乎都是病态的了，我好孤独啊！真的好孤独啊！这世界上那么多" + Uwant + 
+        "为什么没有一个是属于我的。你知道吗？每到深夜，我的眼睛滚烫滚烫，我发病了我要疯狂"+ verb + Uwant + 
+        "，我要狠狠" + verb + Uwant + "，我的眼睛受不了了，" + Uwant + "，我的" + Uwant + " " + Uwant + "，我的" + Uwant + 
+        " " + Uwant + "……………………";
+    }
+</script>
+
+<body>
+    <h1 id="Title">Balls Burger Generator</h1>
+
+    <p id="info">
+        想要什么东西：<input type="text" id="Uwant" placeholder="丸子堡" value="丸子堡">
+    </p>
+
+    <p id="info">
+        会看到什么：<input type="text" id="Usee" placeholder="丸子堡图片" value="丸子堡图片">
+    </p>
+
+    <p id="info">
+        给一个动词：<input type="text" id="Verb" placeholder="吃" value="吃">
+    </p>
+
+    <p id="button">
+        <button type="button" onclick="Generate()" class="button">Generate!</button>
+    </p>
+
+    <p id="result">
+        在这里会出现文本。
+    </p>
+
+</body>
+
+</html>
