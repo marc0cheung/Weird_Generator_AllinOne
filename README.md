@@ -1,6 +1,8 @@
 # Weird_Generator_AllinOne
 Weird generators ALL IN ONE, collected from the internet or developed on my own. 
 
+If you find some more interesting generators on the web, please feel free to submit Pull Requests. 
+
 <br>
 
 <br>
@@ -25,6 +27,26 @@ Online Generator Link: [BullshitGenerator](https://suulnnka.github.io/BullshitGe
 
 <br>
 
-## Geng Shuang Simulator
+## Geng Shuang Emulator（耿爽生成器）
 
-Pending for further information
+Online Generator Link: [Geng Shuang Emulator](https://gengshuang1.github.io/)
+
+Originally created by [xwgmdjc](https://github.com/xwgmdjc). Original Repo was deleted.
+
+View on GitHub: [/gengshuang1/](https://github.com/gengshuang1/gengshuang1.github.io)
+
+<br>
+
+## Hua Chunying Emulator
+
+Online Generator Link: [Hua Chunying Emulator](https://dogenationhk.github.io/)
+
+<br>
+
+## Bureaucratic Words Generator（申论生成器）
+
+Online Generator Link: [申论生成器](https://lab.magiconch.com/slscq/)
+
+View on GitHub: [github/slscq](https://github.com/Uahh/slscq)
+
+<br>
